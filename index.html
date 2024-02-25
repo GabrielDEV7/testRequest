@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="image/pesquisa.png" type="image/x-icon" />
+    <script src="./requisitionsAPI/requisition.js" defer></script>
+    <title>WebSign.com.br</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 id="Title">WebSign</h1>
+    </header>
+    <form class="loginForm" action="#" method="post">
+      <div class="containerForm">
+        <input
+          class="nameId"
+          type="text"
+          placeholder="First name"
+          name="Firstname"
+          id="nameId"
+          required
+        />
+        <span class="error"></span>
+
+        <input
+          class="lastnameId"
+          type="text"
+          placeholder="Last name"
+          name="Lastname"
+          id="lastnameId"
+          required
+        />
+        <span class="error"></span>
+
+        <input
+          class="contactId"
+          type="tel"
+          placeholder="contact"
+          name="Contact"
+          id="contactId"
+          required
+        />
+        <span class="error"></span>
+
+        <input
+          class="stateCep"
+          type="text"
+          placeholder="CEP"
+          name="cepId"
+          id="cepId"
+          required
+        />
+        <span class="error"></span>
+
+        <input
+          class="stateCep"
+          type="text"
+          placeholder="City"
+          name="cityId"
+          id="cityId"
+          required
+        />
+        <span class="error"></span>
+
+        <input
+          class="stateCep"
+          type="text"
+          placeholder="State"
+          name="stateId"
+          id="stateId"
+          required
+        />
+        <span class="error"></span>
+
+        <input
+          class="emailId"
+          type="text"
+          placeholder="E-mail"
+          name="emailId"
+          id="emailId"
+          required
+        />
+        <span class="error"></span>
+      </div>
+
+      <input
+        type="submit"
+        name="Sign"
+        value="Sign"
+        class="btn-sign"
+        id="btn-sign"
+      />
+    </form>
+  </body>
+</html>
